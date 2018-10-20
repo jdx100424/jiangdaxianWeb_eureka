@@ -11,7 +11,7 @@ eureka:
     lease-expiration-duration-in-seconds: 30
     prefer-ip-address: false
   client:
-    fetch-registry: true
-    register-with-eureka: true
     serviceUrl:
       default-zone: http://discovery1:8761/eureka/, http://discovery3:8763/eureka/
+    fetch-registry: true
+    register-with-eureka: true
