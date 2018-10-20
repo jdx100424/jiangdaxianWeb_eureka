@@ -9,7 +9,7 @@ eureka:
     hostname: discovery1
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 30
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     serviceUrl:
       default-zone: http://discovery2:8762/eureka/, http://discovery3:8763/eureka/
