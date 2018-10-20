@@ -3,7 +3,7 @@ spring:
     name: eureka-server
   profiles: discovery3
 server:
-  port: 8763
+  port: 3763
 eureka:
   instance:
     hostname: discovery3
@@ -12,6 +12,6 @@ eureka:
     prefer-ip-address: false
   client:
     serviceUrl:
-      default-zone: http://discovery2:8762/eureka/, http://discovery1:8761/eureka/
+      default-zone: http://discovery2:3762/eureka/, http://discovery1:3761/eureka/
     fetch-registry: true
     register-with-eureka: true
