@@ -12,6 +12,6 @@ eureka:
     prefer-ip-address: false
   client:
     serviceUrl:
-      default-zone: http://discovery2:8762/eureka/, http://discovery3:8763/eureka/
+      default-zone: http://discovery1:8762/eureka/, http://discovery1:8763/eureka/
     fetch-registry: true
     register-with-eureka: true
