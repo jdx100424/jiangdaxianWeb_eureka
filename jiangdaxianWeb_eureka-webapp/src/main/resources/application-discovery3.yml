@@ -13,5 +13,5 @@ eureka:
   client:
     serviceUrl:
       default-zone: http://discovery2:8762/eureka/, http://discovery1:8761/eureka/
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
