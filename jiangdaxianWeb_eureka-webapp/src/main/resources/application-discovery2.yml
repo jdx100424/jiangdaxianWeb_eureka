@@ -7,7 +7,7 @@ server:
 eureka:
   instance:
     hostname: discovery2
-    lease-renewal-interval-in-seconds: 30
+    lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 30
     prefer-ip-address: false
   client:
