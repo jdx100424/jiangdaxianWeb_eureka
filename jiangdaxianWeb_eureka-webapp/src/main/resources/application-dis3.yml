@@ -1,17 +1,17 @@
 spring:
   application:
     name: eureka-server
-  profiles: discovery1
+  profiles: dis3
 server:
-  port: 8761
+  port: 8763
 eureka:
   instance:
-    hostname: discovery1
+    hostname: dis3
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 30
     prefer-ip-address: false
   client:
     serviceUrl:
-      default-zone: http://discovery2:8762/eureka/, http://discovery3:8763/eureka/
+      default-zone: http://dis2:8762/eureka/, http://dis1:8761/eureka/
     fetch-registry: true
     register-with-eureka: true
