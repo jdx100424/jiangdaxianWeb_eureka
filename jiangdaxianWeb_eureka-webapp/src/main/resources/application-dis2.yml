@@ -9,7 +9,7 @@ eureka:
     hostname: dis2
     lease-renewal-interval-in-seconds: 5
     lease-expiration-duration-in-seconds: 30
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     serviceUrl:
       default-zone: http://10.211.55.8:8761/eureka/, http://10.211.55.10:8761/eureka/
