@@ -3,7 +3,7 @@ spring:
     name: eureka-server
   profiles: dis3
 server:
-  port: 8763
+  port: 8761
 eureka:
   instance:
     hostname: dis3
