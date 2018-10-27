@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka-server1
+    name: eureka-server
   profiles: dis1
 server:
   port: 8761
